@@ -1,0 +1,23 @@
+{
+    "name": "course",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "dev": "parcel ./src/index.html",
+        "build": "parcel build ./src/index.html"
+    },
+    "author": "terence",
+    "license": "ISC",
+    "dependencies": {
+        "three": "0.137.5"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5",
+        "parcel-plugin-static-files-copy": "^2.6.0"
+    },
+    "staticFiles": {
+        "staticPath": "public",
+        "watcherGlob": "**"
+    }
+}
